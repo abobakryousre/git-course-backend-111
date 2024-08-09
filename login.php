@@ -16,9 +16,9 @@ echo "fixing login bug";
 
 <body>
     <nav>
-        <a href="#">home</a>
-        <a href="#">login</a>
-        <a href="#">signup</a>
+        <a href="#" style='color: red'>home</a>
+        <a href="#" style='color: red'>login</a>
+        <a href="#" style='color: red'>signup</a>
     </nav>
     <form action="login.php" method="post">
         Username: <input type="text" name="username" id=""> <br>
