@@ -2,6 +2,8 @@
 if (isset($_POST['submit-btn'])) {
     var_export($_POST);
 }
+
+echo "fixing login bug";
 ?>
 <!DOCTYPE html>
 <html lang="en">
