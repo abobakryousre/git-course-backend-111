@@ -1,6 +1,14 @@
 <?php
 if (isset($_POST['submit-btn'])) {
-    var_export($_POST);
+    // check if admin log him in
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    if ($username == "admin" and $password == "admin") {
+        session_start();
+        $_SERVER['username'] = "admin";
+        header("location: home.php");
+    }
 }
 
 echo "fixing login bug";
