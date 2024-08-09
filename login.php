@@ -9,6 +9,7 @@ if (isset($_POST['submit-btn'])) {
         $_SERVER['username'] = "admin";
         header("location: home.php");
     }
+    echo "welcome admin ... ";
 }
 
 echo "fixing login bug";
