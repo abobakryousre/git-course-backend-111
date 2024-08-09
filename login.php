@@ -15,6 +15,11 @@ echo "fixing login bug";
 </head>
 
 <body>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">login</a>
+        <a href="#">signup</a>
+    </nav>
     <form action="login.php" method="post">
         Username: <input type="text" name="username" id=""> <br>
         Password: <input type="password" name="username" id=""><br>
