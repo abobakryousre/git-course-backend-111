@@ -1,7 +1,4 @@
-<?php
-echo "hello from php.." . PHP_EOL;
-?>
-
+<?php require 'handler/index.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
