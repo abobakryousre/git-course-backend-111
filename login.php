@@ -1,9 +1,15 @@
 <?php
-if (isset($_GET['submit-btn'])) {
-    var_dump($_POST);
-    if (isset($_GET['hack'])) {
+if (isset($_POST['submit-btn'])) {
+    // check if admin log him in
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    if ($username == "admin" and $password == "admin") {
         session_start();
+        $_SERVER['username'] = "admin";
+        header("location: home.php");
     }
+    echo "welcome admin ... ";
 }
 
 echo "fixing login bug";
