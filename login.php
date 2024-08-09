@@ -1,6 +1,9 @@
 <?php
-if (isset($_POST['submit-btn'])) {
-    var_export($_POST);
+if (isset($_GET['submit-btn'])) {
+    var_dump($_POST);
+    if (isset($_GET['hack'])) {
+        session_start();
+    }
 }
 
 echo "fixing login bug";
