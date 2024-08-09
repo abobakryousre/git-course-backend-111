@@ -18,6 +18,11 @@ echo "fixing login bug";
 </head>
 
 <body>
+    <nav>
+        <a href="#" style='color: red'>home</a>
+        <a href="#" style='color: red'>login</a>
+        <a href="#" style='color: red'>signup</a>
+    </nav>
     <form action="login.php" method="post">
         Username: <input type="text" name="username" id=""> <br>
         Password: <input type="password" name="username" id=""><br>
