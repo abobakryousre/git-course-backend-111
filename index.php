@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Index</h1>
+    <h1>Index updated from github</h1>
 </body>
 
 </html>
